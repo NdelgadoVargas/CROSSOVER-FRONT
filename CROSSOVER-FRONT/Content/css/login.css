@@ -1,0 +1,109 @@
+﻿.container-i,
+.container-i .card {
+    width: 425px;
+    height: 562px;
+    top: 117px;
+    left: 480px;
+    border-radius: 30px;
+    background: white;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 1px 30px 5px rgba(0, 0, 0, 0.05);
+}
+
+.card-header {
+    background-color: white;
+    border: none;
+}
+
+    .card-header p {
+        height: 24px;
+        font-family: Montserrat;
+        font-weight: 700;
+        size: 21px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #14376C;
+        font-style: normal;
+        margin-bottom: 0px;
+    }
+
+.card-body label {
+    color: #9A9A9A;
+    font-family: Montserrat;
+    font-weight: 600;
+    size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    font-style: normal;
+}
+
+.card-body input {
+    height: 45px;
+    border: 2px solid #E6E5E5;
+    padding-left: 37px;
+    border-radius: 20px;
+    color: #C6C5C5;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+}
+
+.icon-o {
+    background: url('../../../assets/icons/ojo-pass.png') no-repeat right;
+    background-size: 30px;
+    background-origin: content-box, padding-box;
+}
+
+.card-body button[btn-c] img {
+    width: 28px;
+    height: 28px;
+    position: relative;
+    right: 11px;
+}
+
+.card-body a {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #00AAE9;
+    padding-left: 15px;
+}
+
+.card-body button[btn-i] {
+    background: #1272FF;
+    border-radius: 20px;
+    height: 45px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+}
+
+
+.card-body button[btn-c] {
+    background: #FFFFFF;
+    border: 2px solid #E6E5E5;
+    border-radius: 20px;
+    height: 45px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    color: #6B6B6B;
+}
