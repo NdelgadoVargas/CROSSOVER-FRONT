@@ -18,7 +18,7 @@ namespace CROSSOVER_FRONT.Controllers
             return View();
         }
 
-        public ActionResult GenerarCuenta(CreateUsuarioModel.obj data)
+        public ActionResult GenerarCuenta(CreateUsuarioModel.data data)
         {
             try
             {
@@ -38,7 +38,7 @@ namespace CROSSOVER_FRONT.Controllers
 
                 IRestResponse response = client.Execute(request);
 
-                var resp = JsonConvert.DeserializeObject<CreateUsuarioModel.ENTR_Header>(response.Content);
+                var resp = JsonConvert.DeserializeObject<CreateUsuarioModel.ENTR_CREATER>(response.Content);
 
                 return Json(new { respuesta = "ok", resp });
             }

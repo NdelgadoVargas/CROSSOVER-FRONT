@@ -7,7 +7,7 @@ namespace CROSSOVER_FRONT.Models
 {
     public class IniciarSesionModel
     {
-        public class dataSesion
+        public class data
         {
             public string email { get; set; }
             public int password { get; set; }
@@ -15,16 +15,16 @@ namespace CROSSOVER_FRONT.Models
 
         }
 
-        public class ENTR_Header
+        public class ENTR_INICIAR
         {
             public string id { get; set; }
             public int code { get; set; }
             public string message { get; set; }
-            public ENTR_Body data { get; set; }
+            public ENTR_INICIAR_SESION data { get; set; }
 
         }
 
-        public class ENTR_Body
+        public class ENTR_INICIAR_SESION
         {
             public string id { get; set; }
             public int Id { get; set; }

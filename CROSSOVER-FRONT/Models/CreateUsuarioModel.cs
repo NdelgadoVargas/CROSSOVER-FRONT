@@ -7,21 +7,21 @@ namespace CROSSOVER_FRONT.Models
 {
     public class CreateUsuarioModel
     {
-        public class obj
+        public class data
         {
             public string name { get; set; }
             public string email { get; set; }
             public string password { get; set; }
         }
 
-        public class ENTR_Header
+        public class ENTR_CREATER
         {
             public int code { get; set; }
             public string message { get; set; }
-            public ENTR_Body data { get; set; }
+            public ENTR_CREATE_USUARIO data { get; set; }
         }
 
-        public class ENTR_Body
+        public class ENTR_CREATE_USUARIO
         {
             public int Id { get; set; }
             public string Name { get; set; }

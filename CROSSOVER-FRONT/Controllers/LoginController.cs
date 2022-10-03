@@ -18,7 +18,7 @@ namespace CROSSOVER_FRONT.Controllers
             return View();
         }
 
-        public ActionResult ingresarSesion(IniciarSesionModel.dataSesion data)
+        public ActionResult ingresarSesion(IniciarSesionModel.data data)
         {
             try
             {
@@ -38,7 +38,7 @@ namespace CROSSOVER_FRONT.Controllers
 
                 IRestResponse response = client.Execute(request);
 
-                var resp = JsonConvert.DeserializeObject<IniciarSesionModel.ENTR_Header>(response.Content);
+                var resp = JsonConvert.DeserializeObject<IniciarSesionModel.ENTR_INICIAR>(response.Content);
 
                 return Json(new {respuesta="ok",resp });
             }
